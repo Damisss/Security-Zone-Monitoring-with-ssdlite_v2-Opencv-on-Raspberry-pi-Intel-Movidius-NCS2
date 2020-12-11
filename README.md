@@ -1,0 +1,1 @@
+# security_app_with_ssdlite_raspberry_pi_intel_neural_compute_stcik2
