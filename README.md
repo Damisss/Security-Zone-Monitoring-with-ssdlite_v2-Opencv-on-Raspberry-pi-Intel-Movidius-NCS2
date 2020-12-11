@@ -1,6 +1,6 @@
 # security_app_with_ssdlite_raspberry_pi_intel_neural_compute_stcik2
 
-This project demostrates how to use a pre-trained object detection model (ssdlite_mobilenet_v2) plus opencv to monitor a security zones on edge device (Raspberry pi + Intel Movidius Neural Compute Stick NCS2). it attempts to show how to deploy Intermediate Representation Graph of a pre-trained model from well known Tensorflow Object Detection API version 1 model zoo. Also, the project shows how to save CPU cycles by using a cascade of background subtraction and object detection. 
+This project demostrates how to use a pre-trained object detection model (ssdlite_mobilenet_v2) plus opencv to monitor a security zones for intruders on edge device (Raspberry pi + Intel Movidius Neural Compute Stick NCS2). it attempts to show how to deploy Intermediate Representation Graph of a pre-trained model from well known Tensorflow Object Detection API version 1 model zoo. Also, the project shows how to save CPU cycles by using a cascade of background subtraction and object detection. 
 
 # Convert TensorFlow Object Detection to Openvino Intermediate representation
 
