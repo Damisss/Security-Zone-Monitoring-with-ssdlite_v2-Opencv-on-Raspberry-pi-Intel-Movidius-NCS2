@@ -17,7 +17,7 @@ ap.add_argument('-i', '--input', help='Path to input video')
 ap.add_argument('-o', '--output', default='output/result.avi',  help='Path to output video')
 ap.add_argument('-t', '--topo', required=True, help='Path to intermediate xml file (this file contains the topography of the network)')
 ap.add_argument('-w', '--weights', required=True, help='Path to intermediate bin file (this file contains models\' weights ')
-ap.add_argument('-c', '--confidence', default=.3, type=float, help='Minimum proba to filter weak detections')
+ap.add_argument('-c', '--confidence', default=.5, type=float, help='Minimum proba to filter weak detections')
 args = vars(ap.parse_args())
 
 class Inference ():
